@@ -10,7 +10,7 @@
     background-image: url("#");
     background-size: cover;
     background-position: center;
-    padding: 20px 20%;
+    padding: 30px 20%;
     transition: background-image 0.3s;
 }
 nav{
@@ -76,6 +76,24 @@ nav .btn{
 }
 .colours #blue{
     background: blue;
+}
+.content a{
+    text-decoration: none;
+}
+.content a button {
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+.content a button:hover{
+    background: rgb(4, 46, 235);
+    color: white;
+
 }
 
 /*responsive deign*/
