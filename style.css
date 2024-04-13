@@ -30,7 +30,11 @@ nav .btn{
     border-radius: 20px;
     padding: 20px;
     font-weight: 600;
+    font-size: large;
 
+}
+nav .btn:hover{
+    background: rgb(18, 18, 190);
 }
 .content{
     margin-top: 10%;
@@ -84,11 +88,12 @@ nav .btn{
     background: black;
     color: white;
     padding: 15px;
-    margin-top: 15px;
-    border-radius: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
     font-weight: 700;
     font-size: large;
     cursor: pointer;
+    border-style: none;
 }
 .content a button:hover{
     background: rgb(4, 46, 235);
